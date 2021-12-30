@@ -1,24 +1,13 @@
-# README
+# RAILS JWT FROM SCRATCH
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Get the current weather information for a location
 
-Things you may want to cover:
+You can use a location id from the seed data or create it yourself.
 
-* Ruby version
+For example, I have location with id 1.
 
-* System dependencies
+### CURL
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```shell
+curl http://localhost:3000/api/v1/locations/1.json
+```
